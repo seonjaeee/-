@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LightTodo | 투두리스트</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header>📋 LightTodo</header>
+
+    <div class="task-input">
+      <input type="text" placeholder="할 일을 입력하고 Enter를 눌러주세요.">
+    </div>
+
+    <div class="controls">
+      <div class="filters">
+        <span id="all" class="active">전체</span>
+        <span id="pending">진행중</span>
+        <span id="completed">완료</span>
+      </div>
+      <button class="clear-btn">모두 삭제</button>
+    </div>
+
+    <ul class="task-box"></ul>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
